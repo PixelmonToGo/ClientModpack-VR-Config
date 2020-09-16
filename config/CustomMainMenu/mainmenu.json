@@ -1,0 +1,154 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "modpack:textures/togologo.png",
+            "posX" : -70,
+            "posY" : -10,
+            "width" : 160,
+            "height" : 160,
+            "alignment" : "top_center"
+        }
+    },
+
+    "buttons":
+    {
+
+        "play":
+        {
+            "text" : "",
+               "texture" : "modpack:textures/play.png",
+            "posX" : -207,
+            "posY" : 110,
+            "width" : 64,
+            "height" : 64,
+			"imageWidth" : 190,
+			"imageHeight" : 190,
+            "action" :
+            {
+                "type" : "connectToServer",
+                "ip" : "pixelmontogo.com"
+            }
+        },
+
+        "store":
+        {
+            "text" : "",
+               "texture" : "modpack:textures/store.png",
+            "posX" : -69,
+            "posY" : 110,
+            "width" : 64,
+            "height" : 64,
+			"imageWidth" : 190,
+			"imageHeight" : 190,
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "http://store.pixelmontogo.com"
+            }
+        },
+
+        "discord":
+        {
+            "text" : "",
+               "texture" : "modpack:textures/discord.png",
+            "posX" : -138,
+            "posY" : 110,
+            "width" : 64,
+            "height" : 64,
+			"imageWidth" : 190,
+			"imageHeight" : 190,
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/2TdCupu"
+            }
+        },
+
+        "options":
+        {
+            "text" : "",
+            "posX" : 5,
+            "posY" : 110,
+            "width" : 64,
+            "height" : 64,
+            "imageWidth" : 190,
+            "imageHeight" : 190,
+            "texture" : "modpack:textures/options.png",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+
+        "solo":
+        {
+            "text" : "",
+            "posX" : 74,
+            "posY" : 110,
+            "width" : 64,
+            "height" : 64,
+            "imageWidth" : 190,
+            "imageHeight" : 190,
+            "texture" : "modpack:textures/solo.png",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+
+        "multi":
+        {
+            "text" : "",
+            "posX" : 143,
+            "posY" : 110,
+            "width" : 64,
+            "height" : 64,
+            "imageWidth" : 190,
+            "imageHeight" : 190,
+            "texture" : "modpack:textures/multi.png",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+
+        "quit":
+        {
+            "text" : "",
+            "posX" : 173,
+            "posY" : -64,
+            "width" : 64,
+            "height" : 19,
+            "imageWidth" : 190,
+            "imageHeight" : 57,
+            "texture" : "modpack:textures/quit.png",
+            "action" :
+            {
+                "type" : "quit"
+            }
+        }
+
+    },
+
+    "texts":
+    {
+
+    },
+
+    "other":
+    {
+"panorama":
+{
+    "images" : "modpack:textures/panorama/panorama_%c.png",
+    "animate" : true,
+    "animationSpeed" : 5,
+    "blur" : true,
+    "gradient" : false
+      }
+    }
+  }
